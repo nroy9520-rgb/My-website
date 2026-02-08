@@ -3,80 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A modern, responsive website template">
-    <title>My GitHub Pages Site</title>
+    <meta name="description" content="Anything - AI app builder. Turn your words into mobile apps, sites, tools, and products.">
+    <title>Anything - AI app builder</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Announcement Banner -->
+    <div class="announcement-bar">
+        <p>Hire a pro to build your app. <a href="#experts">Introducing Anything Experts</a></p>
+    </div>
+
+    <!-- Navigation -->
     <header>
         <nav class="navbar">
             <div class="container">
                 <div class="logo">
-                    <h1>My Site</h1>
+                    <svg width="120" height="30" viewBox="0 0 120 30" fill="none">
+                        <text x="0" y="22" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Anything</text>
+                    </svg>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#docs">Docs</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#login" class="login-btn">Login</a></li>
                 </ul>
+                <a href="#signup" class="btn-primary">Get started</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <h2>Welcome to My GitHub Pages Site</h2>
-                <p>A beautiful, responsive website hosted on GitHub Pages</p>
-                <a href="#about" class="btn">Learn More</a>
-            </div>
-        </section>
-
-        <section id="about" class="about">
-            <div class="container">
-                <h2>About</h2>
-                <p>This is a starter template for GitHub Pages. Feel free to customize it to match your needs!</p>
-            </div>
-        </section>
-
-        <section id="services" class="services">
-            <div class="container">
-                <h2>Services</h2>
-                <div class="service-grid">
-                    <div class="service-card">
-                        <h3>Service 1</h3>
-                        <p>Description of your first service</p>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background"></div>
+            <div class="container hero-content">
+                <div class="hero-logo">
+                    <svg width="150" height="40" viewBox="0 0 150 40" fill="none">
+                        <text x="0" y="30" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="white">Anything</text>
+                    </svg>
+                </div>
+                <h1 class="hero-title">Turn your words into mobile apps, sites, tools, and products</h1>
+                <p class="hero-subtitle">Built with code. Add GPT-5 and 40+ integrations in an instant.</p>
+                <div class="hero-cta">
+                    <a href="#signup" class="btn-hero">Get started</a>
+                    <a href="#demo" class="btn-secondary">Watch demo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">1M+</div>
+                        <div class="stat-label">Users</div>
                     </div>
-                    <div class="service-card">
-                        <h3>Service 2</h3>
-                        <p>Description of your second service</p>
+                    <div class="stat">
+                        <div class="stat-number">$2M</div>
+                        <div class="stat-label">ARR</div>
                     </div>
-                    <div class="service-card">
-                        <h3>Service 3</h3>
-                        <p>Description of your third service</p>
+                    <div class="stat">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Integrations</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        <!-- Features Section -->
+        <section class="features">
             <div class="container">
-                <h2>Contact</h2>
-                <p>Get in touch with us!</p>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
+                <h2 class="section-title">Build anything. Ship anywhere.</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>AI-Powered Builder</h3>
+                        <p>Generate full mobile and web apps from natural language. No coding required.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Beautiful Design</h3>
+                        <p>Apps look and feel like they were created by a dedicated design team.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Production Ready</h3>
+                        <p>Integrated backend, auth, payments, and database. Deploy to iOS, Android, and web.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>Anything Max</h3>
+                        <p>Autonomous agent that tests your app and fixes issues automatically.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔌</div>
+                        <h3>40+ Integrations</h3>
+                        <p>Connect to Stripe, OpenAI, Google Maps, Zapier, and more instantly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>Native Apps</h3>
+                        <p>Deploy to App Store and Play Store directly from the platform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories Section -->
+        <section class="stories">
+            <div class="container">
+                <h2 class="section-title">Built by real people solving real problems</h2>
+                <div class="stories-grid">
+                    <div class="story-card">
+                        <div class="story-quote">"A fire chief built a real-time incident command system to replace whiteboards. Now rolling out to 100+ departments."</div>
+                        <div class="story-author">Fire Chief, Northern California</div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-quote">"Former JP Morgan advisor quit to build an AI equity comp simulator. Now piloting with wealth firms."</div>
+                        <div class="story-author">Wealth Advisor, New York</div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-quote">"Finance professional in Japan generated $34,000 in revenue from an AI tool suite built with Anything."</div>
+                        <div class="story-author">Finance Professional, Tokyo</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to build anything?</h2>
+                <p>Join 1 million+ builders turning ideas into reality</p>
+                <a href="#signup" class="btn-hero">Start building for free</a>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 My GitHub Pages Site. All rights reserved.</p>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#experts">Experts</a></li>
+                        <li><a href="#integrations">Integrations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#docs">Documentation</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#tutorials">Tutorials</a></li>
+                        <li><a href="#community">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#press">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy</a></li>
+                        <li><a href="#terms">Terms</a></li>
+                        <li><a href="#security">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anything. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#twitter">Twitter</a>
+                    <a href="#linkedin">LinkedIn</a>
+                    <a href="#github">GitHub</a>
+                </div>
+            </div>
         </div>
     </footer>
 
